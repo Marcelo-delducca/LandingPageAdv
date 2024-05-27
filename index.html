@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software de Cálculos Tributários</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="img/advassist_logo_lado.png" alt="">
+            <nav>
+                <ul>
+                    <li><a href="#funcionalidades">Funcionalidades</a></li>
+                    <li><a href="#planos">Planos</a></li>
+                    <li><a href="entrar.html">Entrar</a></li>
+                    <li><a href="#falar-especialista">Falar com Especialista</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Descomplicando Impostos, 
+
+                Calculando Sucesso!</h1>
+            <button onclick="scrollToSection('mais-informacoes')">Mais Informações</button>
+        </div>
+    </section>
+
+    <section id="mais-informacoes" class="info-section">
+        <div class="container">
+            <h2 id="funcionalidades">Funcionalidades</h2>
+            <ul>
+                <li>Realize cálculos exatos em questão de segundos. Evite erros manuais e economize tempo.</li>
+                <li>Nosso aplicativo pode ser usado de qualquer lugar, seja no escritório, em casa ou em trânsito. Basta ter acesso à internet.</li>
+                <li>Simplifique todo o processo, desde o cálculo até a restituição.</li>
+                <li>Ganhe mais agilidade e tranquilidade para seus clientes.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="planos" class="info-section">
+        <div class="container">
+            <h2>Planos</h2>
+            <div class="planos">
+                <div class="plano">
+                    <h3>Básico</h3>
+                    <p>R$ 49,90/mês</p>
+                    <button>Comece agora</button>
+                </div>
+                <div class="plano">
+                    <h3>Profissional</h3>
+                    <p>R$ 99,90/mês</p>
+                    <button>Comece agora</button>
+                </div>
+                <div class="plano">
+                    <h3>Empresarial</h3>
+                    <p>R$ 199,90/mês</p>
+                    <button>Comece agora</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="falar-especialista" class="info-section">
+        <div class="container">
+            <h2>Falar com Especialista</h2>
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="localidade">Localidade</label>
+                <input type="text" id="localidade" name="localidade" required>
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
